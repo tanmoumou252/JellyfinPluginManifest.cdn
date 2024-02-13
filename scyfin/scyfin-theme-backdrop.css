@@ -5,7 +5,10 @@
     margin-top: 5px !important;
 }
 
-
+/* Brighten the backdrop image */
+.backgroundContainer.withBackdrop {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
 
 /* Static left drawer */
 .layout-desktop .mainDrawer {
@@ -70,7 +73,7 @@
 .blurhash-canvas,
 .dialog,
 .itemSelectionPanel {
-    border-radius: 10px !important;
+    border-radius: 6px !important;
 }
 /* Rounded selection menu */
 .itemSelectionPanel {
@@ -282,8 +285,8 @@
 /* Re-position logo */
 .layout-desktop .detailLogo {
     right: 0 !important;
-    left: 4% !important;
-    top: 14vh !important;
+    left: 5% !important;
+    top: 20vh !important;
 }
 
 /* Transparent ribbon bar */
