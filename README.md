@@ -8,7 +8,10 @@ Manifest for Jellyfin plugins
 
 ## Use Guide
 
-1. In jellyfin, go to dashboard -> plugins -> Repositories -> add and paste this link ```https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/manifest.json```
+1. In jellyfin, go to dashboard -> plugins -> Repositories -> add and paste this link 
+```
+https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/manifest.json
+```
 2. Go to Catalog and search for the plugin you want to install
 3. Click on it and install
 4. Restart Jellyfin
