@@ -319,7 +319,8 @@ html {
 .layout-desktop .detailLogo {
     right: 0 !important;
     left: 5% !important;
-    top: 20vh !important;
+    top: 14.8vh !important;
+    width: 57vh !important;
 }
 
 /* Transparent ribbon bar */
