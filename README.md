@@ -26,6 +26,61 @@ https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/manif
 1. Replacing ```GitHub url``` with ```cdn.jsdelivr``` to speed up web access
 2. Re-upload ```Assets``` under ```Releases``` to a download mode that ```cdn.jsdelivr``` can support - ```repositories```, this [issue](https://github.com/jsdelivr/jsdelivr/issues/18203#issue-595621516) has been discussed long ago
 
+<h1 align="center">Jellyfin-web skin $\color{#FF0000}{SCYFIN}$</h1> 
+<h3 align="center"><a  href="https://github.com/loof2736/scyfin">Scyfin</a> is an eye pleasing custom skin for jellyfin!</h3> 
+
+## $\color{#FF0000}{Changelog}$ 
+
+<img src="./screenshot/compare.png" alt="2" width="100%"/>  
+
+1. Reduce some rounded corners 
+2. fine-tune the position of logos on tvshow and movie detail pages 
+3. increase backdrop brightness 
 
 
+## $\color{#ce8f4d}{Useage}$ 
 
+Copy and paste into `Console` - `General` - `Custom CSS Code` 
+
+### without backdrop 
+```
+@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/scyfin-theme.css'); 
+``` 
+Options (Add these below the full theme)  
+
+Disable static left drawer 
+
+```
+    @import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/disable-static-drawer.css'); 
+```  
+
+Disable static left drawer (BACKDROP VERSION)   
+
+```    
+    @import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/disable-static-drawer-backdrop.css'); 
+``` 
+### backdrop 
+
+```
+@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/scyfin-theme-backdrop.css'); 
+``` 
+
+Options (Add these below the full theme) 
+
+Disable static left drawer 
+
+``` 
+    @import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/disable-static-drawer.css'); 
+``` 
+
+Disable static left drawer (BACKDROP VERSION) 
+
+``` 
+    @import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/disable-static-drawer-backdrop.css'); 
+``` 
+
+## $\color{#ce8f4d}{Skin Demo}$
+
+<img src="./screenshot/movie.png" alt="3" width="100%"/>
+<img src="./screenshot/TVshow1.png" alt="4" width="100%"/>
+<img src="./screenshot/TVshow2.png" alt="5" width="100%"/>
