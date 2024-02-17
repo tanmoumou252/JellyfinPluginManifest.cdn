@@ -5,7 +5,7 @@
         "description": "Jellyfin Merge Versions plugin is a plugin that automatically groups every repeated movie\n",
         "overview": "Automatically merge repeated movies",
         "owner": "danieladov",
-		"imageURL": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/jellyfin-plugin-mergeversions/thumb.png",
+	"imageURL": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/jellyfin-plugin-mergeversions/thumb.png",
         "category": "General",
         "versions": [
 			{
@@ -82,7 +82,7 @@
         "description": "Jellyfin Theme Songs plugin is a plugin that automatically downloads every theme song of your tv shows library\n",
         "overview": "Automatically downloads theme songs of your tv shows",
         "owner": "danieladov",
-		"imageURL": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Theme Songs/thumb.png",
+	"imageURL": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Theme Songs/thumb.png",
         "category": "General",
         "versions": [
 			{
@@ -133,7 +133,7 @@
         "description": "Skin manager helps you to download and install most popular skins for jellyfin\n",
         "overview": "Skins for jellyfin",
         "owner": "danieladov",
-		"imageURL": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Skin Manager/thumb.png",
+	"imageURL": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Skin Manager/thumb.png",
         "category": "General",
         "versions": [
 			{
