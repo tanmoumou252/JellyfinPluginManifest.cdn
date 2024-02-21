@@ -5,7 +5,7 @@
         "description": "Jellyfin Merge Versions plugin is a plugin that automatically groups every repeated movie\n",
         "overview": "Automatically merge repeated movies",
         "owner": "danieladov",
-        "imageURL": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/jellyfin-plugin-mergeversions/thumb.png",
+		"imageURL": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/jellyfin-plugin-mergeversions/thumb.png",
         "category": "General",
         "versions": [
 			{
@@ -82,7 +82,7 @@
         "description": "Jellyfin Theme Songs plugin is a plugin that automatically downloads every theme song of your tv shows library\n",
         "overview": "Automatically downloads theme songs of your tv shows",
         "owner": "danieladov",
-        "imageURL": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Theme Songs/thumb.png",
+		"imageURL": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Theme Songs/thumb.png",
         "category": "General",
         "versions": [
 			{
@@ -133,7 +133,7 @@
         "description": "Skin manager helps you to download and install most popular skins for jellyfin\n",
         "overview": "Skins for jellyfin",
         "owner": "danieladov",
-        "imageURL": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Skin Manager/thumb.png",
+		"imageURL": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Skin Manager/thumb.png",
         "category": "General",
         "versions": [
 			{
@@ -175,57 +175,6 @@
                 "sourceUrl": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Skin Manager/1.0.0.0.zip",
                 "checksum": "15305155f67ad72dbfa4082aa6ef5c3c",
                 "timestamp": "2020-11-08 18:14:58"
-            }
-        ]
-    },
-    {
-        "guid": "771e19d6-5385-4caf-b35c-28a0e865cf63",
-        "name": "Kodi Sync Queue",
-        "description": "This plugin will track all media changes while Kodi clients are offline to decrease sync times.",
-        "overview": "Sync all media changes with Kodi clients",
-        "owner": "jellyfin",
-        "category": "General",
-        "imageUrl": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Kodi Sync Queue/thumb.png",
-        "versions": [
-            {
-                "version": "9.0.0.0",
-                "changelog": "### Bug Fixes ###\n- Fix the scheduled task section name (part of #71) @Shadowghost\n\n### Code or Repo Maintenance ###\n- Cleanup logging and naming (#71) @Shadowghost\n\n### Dependency updates ###\n- Upgrades LiteDB to v5 (part of #71) @Shadowghost\n\n### CI & build changes ###\n- fix: meta ci workflows (#68) @h1dden-da3m0n",
-                "targetAbi": "10.8.3.0",
-                "sourceUrl": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Kodi Sync Queue/kodi-sync-queue_9.0.0.0.zip",
-                "checksum": "02c26bfa57c7daa0b302bc83a4e11ddf",
-                "timestamp": "2022-08-07T12:57:13Z"
-            },
-            {
-                "version": "8.0.0.0",
-                "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#66) @crobibero\n- Use meta ci (#62) @crobibero\n\n### CI & build changes ###\n- Use meta ci (#62) @crobibero",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Kodi Sync Queue/kodi-sync-queue_8.0.0.0.zip",
-                "checksum": "095ebbdcf0f36bf43bb91b7e89c7f610",
-                "timestamp": "2022-03-27T20:27:42Z"
-            },
-            {
-                "version": "7.0.0.0",
-                "changelog": "### New features and improvements ###\n- chore: plugin images (#42) @h1dden-da3m0n\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#43) @dependabot\n\n### CI & build changes ###\n- Update ci (#47) @h1dden-da3m0n\n- Add pre-commit config (#41) @oddstr13\n- Add release drafter (#40) @oddstr13\n- Add workflows for code testing (#38) @oddstr13\n- Add analyzers and fix warnings (#37) @oddstr13\n\n### Code or Repo Maintenance ###\n- 10.8 support (#51) @crobibero\n- Split scripts and update to es6 (#46) @grafixeyehero\n- Use System.Text.Json (#34) @daullmer",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Kodi Sync Queue/kodi-sync-queue_7.0.0.0.zip",
-                "checksum": "e452370cae79462762f69f2506e77fe1",
-                "timestamp": "2022-01-08T17:23:13Z"
-            },
-            {
-                "version": "6.0.0.0",
-                "changelog": "changelog\n",
-                "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Kodi Sync Queue/kodi-sync-queue_6.0.0.0.zip",
-                "checksum": "787c856c0d2ad2224cdd8b3094cf0329",
-                "timestamp": "2020-12-05T22:10:37Z"
-            },
-            {
-                "version": "5.0.0.0",
-                "changelog": "changelog\n",
-                "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/Kodi Sync Queue/kodi-sync-queue_5.0.0.0.zip",
-                "checksum": "08285397aecd93ea64a4f15d38b1bd7b",
-                "timestamp": "2020-07-20T01:31:22Z"
             }
         ]
     }
