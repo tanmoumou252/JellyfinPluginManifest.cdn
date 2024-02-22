@@ -15,7 +15,8 @@ https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/manif
 2. Go to Catalog and search for the plugin you want to install
 3. Click on it and install
 4. Restart Jellyfin
-5. as shown<img src="./screenshot/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-02-13%20201325.png" alt="1" width="100%"/>
+5. as shown  
+<img src="./screenshot/demo of the plugin.png" alt="1" width="60%"/>
 
 ## Current Plugins
 1. <a href = "https://github.com/danieladov/jellyfin-plugin-mergeversions"> Merge Versions</a>
@@ -31,7 +32,7 @@ https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/manif
 
 ## $\color{#FF0000}{Changelog}$ 
 
-<img src="./screenshot/compare.png" alt="2" width="100%"/>  
+<img src="./screenshot/compare.png" alt="2" width="60%"/>  
 
 1. Reduce some rounded corners 
 2. fine-tune the position of logos on tvshow and movie detail pages 
@@ -81,9 +82,9 @@ Disable static left drawer (BACKDROP VERSION)
 
 ## $\color{#ce8f4d}{Skin Demo}$
 
-<img src="./screenshot/movie.png" alt="3" width="100%"/>
-<img src="./screenshot/TVshow1.png" alt="4" width="100%"/>
-<img src="./screenshot/TVshow2.png" alt="5" width="100%"/> 
+<img src="./screenshot/movie.png" alt="3" width="60%"/>
+<img src="./screenshot/TVshow1.png" alt="4" width="60%"/>
+<img src="./screenshot/TVshow2.png" alt="5" width="60%"/> 
 
 <h1 align="center">Version control of Manifest</h1>
 <h3>I have to say, as a noob, this looks a little weird, but still very funny.</h3>
