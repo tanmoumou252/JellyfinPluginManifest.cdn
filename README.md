@@ -83,4 +83,32 @@ Disable static left drawer (BACKDROP VERSION)
 
 <img src="./screenshot/movie.png" alt="3" width="100%"/>
 <img src="./screenshot/TVshow1.png" alt="4" width="100%"/>
-<img src="./screenshot/TVshow2.png" alt="5" width="100%"/>
+<img src="./screenshot/TVshow2.png" alt="5" width="100%"/> 
+
+<h1 align="center">Version control of Manifest</h1>
+<h3>I have to say, as a noob, this looks a little weird, but still very funny</h3>
+
+1. Normal recognition without kodi plugin  
+```
+https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@0b51efa/manifest.json
+```
+2. Kodi added but not recognized  
+```
+https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@d0b5e24/manifest.json
+```
+3. fallback Exactly the same as @0b51efa  
+```
+https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@01a6538/manifest.json
+```
+5. Unify tab indentation to spaces instead of tabs not recognized  
+```
+https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@a643621/manifest.testthumb.json
+```
+7. Single plugin tests recognize thumb successfully.
+```
+https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@de632af/manifest.testthumb.json
+```
+8. Official jellyfin plugin manifest  
+```
+https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/manifest-jellyfin-repo.json
+```
