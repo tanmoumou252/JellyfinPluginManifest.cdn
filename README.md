@@ -86,7 +86,9 @@ Disable static left drawer (BACKDROP VERSION)
 <img src="./screenshot/TVshow2.png" alt="5" width="100%"/> 
 
 <h1 align="center">Version control of Manifest</h1>
-<h3>I have to say, as a noob, this looks a little weird, but still very funny</h3>
+<h3>I have to say, as a noob, this looks a little weird, but still very funny.</h3>
+
+With the help of <a href="https://github.com/Xhofe/alist"><img height="20px" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg" alt="AList" />AList</a>, I was able to test whether ```manifest.json``` is supported by jellyfin more quickly by using webdav's method of mounting the file locally.  
 
 1. Normal recognition without kodi plugin  
 ```
