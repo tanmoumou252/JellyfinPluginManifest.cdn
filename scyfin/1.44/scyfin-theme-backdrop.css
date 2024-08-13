@@ -675,8 +675,8 @@ html,
 
 /* Resize show/movie image on details page */
 .layout-desktop .detailImageContainer .card {
-    top: 9em !important;
-    width: 18.3vw !important;
+    top: 5.73em !important;
+    width: 19vw !important;
 }
 
 /* Re-position content on details page */
@@ -692,7 +692,7 @@ html,
 .layout-tv .detailLogo {
     right: 0 !important;
     left: 5% !important;
-    top: 14.8vh !important;
+    top: 12.6vh !important;
     width: 57vh !important;
 }
 
@@ -712,7 +712,7 @@ html,
 .layout-desktop .detailsGroupItem {
     background: var(--secondary-background-color) !important;
     padding: 10px 20px !important;
-    border-radius: 100px !important;
+    border-radius: 25px !important;
     width: fit-content !important;
     max-width: max-content !important;
     display: flex;
@@ -737,8 +737,9 @@ html,
 .layout-desktop .detailSectionContent {
     background: var(--secondary-background-color) !important;
     border-radius: var(--rounded-cards) !important;
-    padding: 40px 20px 10px 20px !important;
-    margin-top: 50px !important;
+    padding: 16px 20px 10px 20px !important;
+    margin-top: -35px !important;
+    margin-right: -40px !important;
 }
 .layout-mobile .detailSectionContent {
     background: var(--secondary-background-color) !important;
@@ -769,14 +770,15 @@ html,
 }
 .layout-desktop .nameContainer {
     position: absolute !important;
-    margin-top: -55px !important;
+    margin-top: -135px !important;
 }
 .layout-desktop .itemMiscInfo {
     position: absolute !important;
     margin-left: 21px !important;
-    margin-top: 16px !important;
+    margin-top: -85.4px !important;
+    font-size: 113%;
+    color: powderblue;
 }
-
 /* Move description box */
 .layout-desktop .detailPagePrimaryContent {
     padding-left: 20.4vw !important;
