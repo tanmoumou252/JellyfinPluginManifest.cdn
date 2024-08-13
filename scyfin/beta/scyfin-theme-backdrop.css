@@ -675,7 +675,7 @@ html,
 
 /* Resize show/movie image on details page */
 .layout-desktop .detailImageContainer .card {
-    top: 5..73em !important;
+    top: 5.73em !important;
     width: 19vw !important;
 }
 
