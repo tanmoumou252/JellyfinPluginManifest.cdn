@@ -43,75 +43,26 @@ https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/manif
 
 Copy and paste into `Console` - `General` - `Custom CSS Code` 
 
-### without backdrop 
-```
-@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/scyfin-theme.css'); 
-``` 
-Options (Add these below the full theme)  
-
-Disable static left drawer 
-
-```
-    @import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/disable-static-drawer.css'); 
-```  
-
-Disable static left drawer (BACKDROP VERSION)   
-
-```    
-    @import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/disable-static-drawer-backdrop.css'); 
-``` 
 ### backdrop 
 
 ```
-@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/scyfin-theme-backdrop.css'); 
-``` 
+@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.44/scyfin-theme-backdrop.css'); 
+```
 
-Options (Add these below the full theme) 
+Options (Add these below the `scyfin-theme-backdrop.css`)
 
-Disable static left drawer 
+#### disable-static-drawer
+```
+@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.44/disable-static-drawer-backdrop.css'); 
+```
+#### color
+```
+@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.44/theme-color.css'); 
+```
 
-``` 
-    @import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/disable-static-drawer.css'); 
-``` 
-
-Disable static left drawer (BACKDROP VERSION) 
-
-``` 
-    @import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/disable-static-drawer-backdrop.css'); 
-``` 
 
 ## $\color{#ce8f4d}{Skin Demo}$
 
 <img src="./screenshot/movie.png" alt="3" width="60%"/>
 <img src="./screenshot/TVshow1.png" alt="4" width="60%"/>
 <img src="./screenshot/TVshow2.png" alt="5" width="60%"/> 
-
-<h1 align="center">Version control of Manifest</h1>
-<h3>I have to say, as a noob, this looks a little weird, but still very funny.</h3>
-
-With the help of <a href="https://github.com/Xhofe/alist"><img height="20px" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg" alt="AList" />AList</a>, I was able to test whether ```manifest.json``` is supported by jellyfin more quickly by using webdav's method of mounting the file locally.  
-
-1. Normal recognition without kodi plugin  
-```
-https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@0b51efa/manifest.json
-```
-2. Kodi added but not recognized  
-```
-https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@d0b5e24/manifest.json
-```
-3. fallback Exactly the same as @0b51efa  
-```
-https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@01a6538/manifest.json
-```
-5. Unify tab indentation to spaces instead of tabs not recognized  
-```
-https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@a643621/manifest.testthumb.json
-```
-7. Single plugin tests recognize thumb successfully.
-```
-https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@de632af/manifest.testthumb.json
-```
-8. Official jellyfin plugin manifest  
-```
-https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/manifest-jellyfin-repo.json
-```
