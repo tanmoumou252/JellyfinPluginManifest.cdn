@@ -254,7 +254,8 @@
 	display: flex !important;
 	justify-content: center !important;
 	align-items: center !important;
-	height: 160% !important;
+	height: 80% !important;
+	font-size: 14px !important;
 }
 .layout-tv .emby-button-foreground {
     top: -14px !important;
@@ -305,7 +306,7 @@ html,
 /* Button height */
 .headerRight,
 .emby-tab-button {
-    height: 46%px !important;
+    height: 55% !important;
 }
 /* Lower header and add padding to right buttons */
 .layout-desktop .headerRight {
