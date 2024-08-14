@@ -251,7 +251,10 @@
 }
 /* Fix for header buttons */
 .layout-desktop .emby-button-foreground {
-    top: -9px !important;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	height: 160% !important;
 }
 .layout-tv .emby-button-foreground {
     top: -14px !important;
