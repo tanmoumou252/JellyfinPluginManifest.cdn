@@ -305,7 +305,7 @@ html,
 /* Button height */
 .headerRight,
 .emby-tab-button {
-    height: 35px !important;
+    height: 46%px !important;
 }
 /* Lower header and add padding to right buttons */
 .layout-desktop .headerRight {
