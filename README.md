@@ -49,7 +49,14 @@ Copy and paste into `Console` - `General` - `Custom CSS Code`
 @import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.44/scyfin-theme-backdrop.css'); 
 ```
 
-Options (Add these below the `scyfin-theme-backdrop.css`)
+### Options 
+
+(Add these below the `scyfin-theme-backdrop.css`)
+
+#### Different
+```
+@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.44/Different.css'); 
+```
 
 #### disable-static-drawer
 ```
