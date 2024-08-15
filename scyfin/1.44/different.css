@@ -1,0 +1,108 @@
+/* Different */
+/* It should be listed at the end of the CSS to override the original scyfin */
+/* Brighten the backdrop image */
+.backgroundContainer.withBackdrop {
+    background-color: rgba(0, 0, 0, 0.44) !important;
+}
+
+/* Add card around groups section */
+.layout-desktop .detailsGroupItem {
+    background: var(--primary-background-transparent) !important;
+    padding: 10px 20px !important;
+    border-radius: 25px !important;
+    width: fit-content !important;
+    backdrop-filter: blur(40px) !important;
+    display: flex;
+    gap: 1em;
+}
+
+.detailsGroupItem .genresLabel,
+.detailsGroupItem .directorsLabel,
+.detailsGroupItem .writersLabel,
+.detailsGroupItem .studiosLabel {
+    display: flex;
+    justify-content: left; 
+    align-items: center; /* 垂直居中 */
+}
+.detailsGroupItem .genres {
+    width: fit-content !important;
+    max-width: 650px !important;
+    min-width: 170px !important;
+    font-size: 88%;
+    justify-content: center !important; /* 水平居中 */
+    align-items: center !important; /* 垂直居中 */
+}
+
+.detailsGroupItem .directors {
+    min-width: 270px !important;
+    font-size: 88%;
+    justify-content: center !important; /* 水平居中 */
+    align-items: center !important; /* 垂直居中 */
+}
+.detailsGroupItem .writers {
+    min-width: 270px;
+    font-size: 88%;
+    justify-content: center !important; /* 水平居中 */
+    align-items: center !important; /* 垂直居中 */
+}
+.detailsGroupItem.studiosGroup {
+    max-width: 650px !important;
+    min-width: 170px !important;
+    width: 50% !important;
+}
+
+.layout-mobile .detailsGroupItem.studiosGroup{
+    width: 103% !important;
+    font-size: 88%;
+}
+
+.detailsGroupItem.studiosGroup .studios {
+    font-size: 68% !important;
+    justify-content: center !important; /* 水平居中 */
+    align-items: center !important; /* 垂直居中 */
+}
+
+
+/* Add card around description */
+.layout-desktop .detailSectionContent {    
+    border-radius: var(--rounded-cards) !important;
+    padding: 16px 20px 10px 20px !important;
+    margin-top: 22px !important;
+    margin-right: -40px !important;
+    backdrop-filter: blur(4.7px) !important;
+}
+
+.layout-mobile .detailSectionContent {    
+    border-radius: var(--rounded-cards) !important;
+    padding: 16px 20px 10px 20px !important;
+    margin-top: 22px !important;
+    margin-right: -40px !important;    
+}
+.detailSectionContent h3.tagline {
+    margin-top: 4% !important;
+    font-size: 16px !important;
+    color: var(--primary-accent-color) !important;
+}
+
+
+/* Re-position title */
+.layout-desktop .nameContainer {
+    position: absolute !important;
+    margin-top: -80px !important;
+}
+.layout-desktop .itemMiscInfo {
+    position: absolute !important;
+    margin-left: 21px !important;
+    margin-top: -27.4px !important;
+    font-size: 113%;
+}
+
+/* Re-position logo */
+.layout-desktop .detailLogo,
+.layout-tv .detailLogo {
+    right: 0 !important;
+    left: 5% !important;
+    top: 10vh !important;    
+    max-width: 55vh !important;
+    width: 122% !important; 
+}
