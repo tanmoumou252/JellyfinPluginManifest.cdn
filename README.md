@@ -55,7 +55,7 @@ Copy and paste into `Console` - `General` - `Custom CSS Code`
 
 #### Different
 ```
-@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.44/Different.css'); 
+@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.44/different.css'); 
 ```
 
 #### disable-static-drawer
