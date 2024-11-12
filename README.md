@@ -35,9 +35,10 @@ https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/manif
 <img src="./screenshot/compare.png" alt="2" width="60%"/>  
 
 1. Reduce some rounded corners 
-2. fine-tune the position of logos on tvshow and movie detail pages 
+2. fine-tune the position of logos on tvshow and movie detail pages,and display the logo in the mobile view
 3. increase backdrop brightness 
-
+4. Adjust font size for rating/year/score sections in shows and movies.
+5. Hidden directors,writers and studios content.
 
 ## $\color{#ce8f4d}{Useage}$ 
 
@@ -46,26 +47,28 @@ Copy and paste into `Console` - `General` - `Custom CSS Code`
 ### backdrop 
 
 ```
-@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.44/scyfin-theme-backdrop.css'); 
+@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.4.8/scyfin-theme.css'); 
 ```
 
 ### Options 
 
-(Add these below the `scyfin-theme-backdrop.css`)
-
-#### Different
-```
-@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.44/different.css'); 
-```
+(Add these below the `scyfin-theme.css`)
 
 #### disable-static-drawer
 ```
-@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.44/disable-static-drawer-backdrop.css'); 
+@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.4.8/disable-static-drawer.css'); 
 ```
 #### color
 ```
-@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.44/theme-color.css'); 
+@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.4.8/theme-snow.css'); 
 ```
+
+#### Different (must in the end)
+```
+@import url('https://cdn.jsdelivr.net/gh/tanmoumou252/JellyfinPluginManifest.cdn@master/scyfin/1.4.8/different.css'); 
+```
+
+
 
 
 ## $\color{#ce8f4d}{Skin Demo}$
